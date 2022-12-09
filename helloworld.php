@@ -1,6 +1,6 @@
 <?php
 
-$tekst="hello,world!";
+$tekst="hello, world! hallo, wereld!";
 
 echo $tekst;
 echo $tekst;
