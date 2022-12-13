@@ -1,10 +1,14 @@
 <?php
 
+$tafel=readline("Welke tafel wil je zien?");
 $begin=1;
-$maximum=10;
-$tekst="Hello, World!\n";
+$eind=10;
 
-for ($teller=$begin;$teller<=$maximum;$teller++) {
-    echo $tekst; 
+echo "Tafel van $tafel:\n";
+
+for ($teller=$begin;$teller<=$eind;$teller++) {
+    $product=$teller*$tafel;
+    echo $teller." x ".$tafel." = ".$product."\n";
 }
+
 ?>
