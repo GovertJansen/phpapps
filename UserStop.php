@@ -1,11 +1,10 @@
 <?php
-$stop = "nee";
-$teller = 1;
 
-while ( $stop == "nee" ) {
-    echo "Dit is run $teller\n";
+$begin=1;
+$maximum=10;
+$tekst="Hello, World!\n";
 
-    $stop = readline("wil je stoppen [ja/nee] : ");
-    $teller++;
+for ($teller=$begin;$teller<=$maximum;$teller++) {
+    echo $tekst; 
 }
 ?>
