@@ -1,20 +1,16 @@
 <?php
-$teller = "0";
-$stop = "stop";
 $random = rand(1,100);
 $invoer = readline ("Geef een getal");
+$teller = 0;
 
 while ($random != $invoer) {
     echo "Dit antwoord is niet juist, probeer het opnieuw.\n";
-if ($random == $invoer) 
-echo "Dit is juist!";
-if ($random < $invoer)
-echo "Het getal is lager";
-if ($random > $invoer)
-echo "Het getal is hoger";
+if ($random < $invoer) echo "Het getal is lager\n";
+if ($random > $invoer) echo "Het getal is hoger\n";
+$teller ++;
+$invoer = readline ("Geef een getal");
 
- exit;
-$teller++;
 }
 
+echo "Dit is juist! Je hebt er $teller keer over gedaan.";
 ?>
