@@ -1,8 +1,6 @@
 <?php
-$breedte = readline ("Vul een breedte in:");
+$diameter = readline ("Vul de diameter van de cirkel in:");
 
-$lengte = readline ("Vul een lengte in:");
-
-$omtrek = $breedte * $lengte;
-echo ("De omtrek is : $omtrek");
+$omtrek = $diameter * pi();
+echo ("De omtrek van de cirkel is : $omtrek");
 ?> 
