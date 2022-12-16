@@ -1,7 +1,7 @@
 <?php
 $invoer = readline ("Vul je leeftijd in:");
 
-while ($invoer < 9) {
+if ($invoer < 9) {
 exit ("Je bent te jong"); 
 }
 if ($invoer > 118) {
