@@ -1,11 +1,18 @@
 <?php
 
-$invoer = readline ("Hoeveel producten wil je plaatsen:\n");
+$aantal = readline ("Hoeveel producten wil je plaatsen:\n" );
 
-if ($invoer != is_numeric($invoer) ) {
-    echo "Geen getal ingevoerd";
+if ($aantal != is_numeric($aantal) ) { 
+    exit  ("Geen getal ingevoerd.\n");
 }
 
-$invoer = readline ("Geef je producten op:");
+$lijst = array(); 
 
+for ($i=1 ; $i <= $aantal ; $i++){
+    $invoer = readline ("Geef je producten op:$i van $aantal\n");
+    $lijst [] = "$invoer";  
+}
+foreach ($lijst as $value) {
+    echo "$value \n";
+  }
 ?>
