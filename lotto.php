@@ -1,6 +1,6 @@
 <?php
 $lotnummers = array ();
-for ($i=0 ; $i <= 6 ; $i++) {
+for ($i=1 ; $i <= 6 ; $i++) {
     $getal = readline ("Geef je lot nummers:\n");
     if ($getal <1 || $getal >42) {
     exit ("verkeerd lot nummer ingevoerd.\n");
@@ -8,6 +8,10 @@ for ($i=0 ; $i <= 6 ; $i++) {
         $lotnummers [] = "$getal";  
     }
 }
-foreach ($lotnummers as $value) {
-    echo "$value \n";
-}
+
+$trekking = array ();
+for ($i=1 ; $i <= 6 ; $i++) {
+    $random = rand (1,42);
+    $trekking [] = "$random";
+}    
+
