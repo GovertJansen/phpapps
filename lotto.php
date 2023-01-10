@@ -17,7 +17,6 @@ for ($i=1 ; $i <= 6 ; $i++) {
     }else {
      $i--;
     }
-    
 }    
 
 $matches = 0;
@@ -25,7 +24,6 @@ foreach ($trekking as $value){
     if (in_array($value, $lotnummers))
     $matches++;
 }
-
 
 function Tooncijfers ($value, $key){
     echo $value;
@@ -39,8 +37,6 @@ array_walk ($lotnummers, "Tooncijfers");
 echo "\nDe winnende lot cijfers zijn: ";
 array_walk ($trekking, "Tooncijfers");
 
-
-
 if ($matches == 3){
     echo ("\nJe hebt 10,- gewonnen!");
 }elseif ($matches == 4){
@@ -52,4 +48,3 @@ if ($matches == 3){
 }elseif ($matches <= 3){
     echo ("\nJe hebt niks gewonnen.");
 }
-
