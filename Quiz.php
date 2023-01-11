@@ -13,4 +13,3 @@ $invoer = readline ("Geef een getal");
 }
 
 echo "Dit is juist! Je hebt er $teller keer over gedaan.";
-?>
