@@ -25,7 +25,7 @@ if ($invoergrootheid == $eenheden[0])
     } elseif ($invoergewenst == $eenheden[5]) {
         echo ($waarde * 100000);
     } elseif ($invoergewenst == $eenheden[6]) {
-        echo ($waarde * 1000000);
+        echo  number_format($waarde * 1000000);
     }
 
 
@@ -119,3 +119,4 @@ if ($invoergrootheid == $eenheden[6])
     } elseif ($invoergewenst == $eenheden[5]) {
         echo ($waarde / 10);
     }
+echo "test git kraken";
