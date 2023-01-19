@@ -119,4 +119,3 @@ if ($invoergrootheid == $eenheden[6])
     } elseif ($invoergewenst == $eenheden[5]) {
         echo ($waarde / 10);
     }
-echo "test git kraken";
