@@ -107,8 +107,7 @@ if ($invoergrootheid == $eenheden[5])
 
 if ($invoergrootheid == $eenheden[6])
     if ($invoergewenst == $eenheden[0]) {
-        $MMtoKM = ($waarde / 1000000);
-        echo $MMtoKM;
+        echo rtrim(number_format(($waarde / 1000000), 6), "0") . " Kilometer";
     } elseif ($invoergewenst == $eenheden[1]) {
         echo ($waarde / 100000) . " Hectometer";
     } elseif ($invoergewenst == $eenheden[2]) {
