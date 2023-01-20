@@ -92,7 +92,7 @@ if ($invoergrootheid == $eenheden[4])
 
 if ($invoergrootheid == $eenheden[5])
     if ($invoergewenst == $eenheden[0]) {
-        echo ($waarde / 100000) . " Kilometer";
+        echo rtrim(number_format(($waarde / 100000), 7), "0") . " Kilometer";
     } elseif ($invoergewenst == $eenheden[1]) {
         echo ($waarde / 10000) . " Hectometer";
     } elseif ($invoergewenst == $eenheden[2]) {
@@ -107,9 +107,9 @@ if ($invoergrootheid == $eenheden[5])
 
 if ($invoergrootheid == $eenheden[6])
     if ($invoergewenst == $eenheden[0]) {
-        echo rtrim(number_format(($waarde / 1000000), 6), "0") . " Kilometer";
+        echo rtrim(number_format(($waarde / 1000000), 8), "0") . " Kilometer";
     } elseif ($invoergewenst == $eenheden[1]) {
-        echo ($waarde / 100000) . " Hectometer";
+        echo rtrim(number_format(($waarde / 100000), 8), "0") . " Hectometer";
     } elseif ($invoergewenst == $eenheden[2]) {
         echo ($waarde / 10000) . " Decameter";
     } elseif ($invoergewenst == $eenheden[3]) {
