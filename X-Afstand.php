@@ -1,7 +1,18 @@
 <?php
 $waarde = readline("Welke waarde:");
+if ($waarde != is_numeric($waarde)) {
+    exit("Geen waarde ingevoerd.\n");
+}
+
 $invoergrootheid = readline("Welke grootheid:");
+if ($invoergrootheid != !is_numeric($invoergrootheid)) {
+    exit("Geen eenheid ingevoerd.\n");
+}
+
 $invoergewenst = readline("Welke gewenste grootheid:");
+if ($invoergewenst != !is_numeric($invoergewenst)) {
+    exit("Geen eenheid ingevoerd.\n");
+}
 
 $eenheden = array(
     "Kilometer",
@@ -51,11 +62,11 @@ if ($invoergrootheid == $eenheden[2])
     } elseif ($invoergewenst == $eenheden[1]) {
         echo ($waarde / 10) . " Hectometer";
     } elseif ($invoergewenst == $eenheden[3]) {
-        echo ($waarde * 10) . "Meter";
+        echo ($waarde * 10) . " Meter";
     } elseif ($invoergewenst == $eenheden[4]) {
-        echo ($waarde * 100) . "Decimeter";
+        echo ($waarde * 100) . " Decimeter";
     } elseif ($invoergewenst == $eenheden[5]) {
-        echo ($waarde * 1000) . "Centimeter";
+        echo ($waarde * 1000) . " Centimeter";
     } elseif ($invoergewenst == $eenheden[6]) {
         echo ($waarde * 10000) . " Millimeter";
     }

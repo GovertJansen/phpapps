@@ -15,4 +15,3 @@ for ($i=1 ; $i <= $aantal ; $i++){
 foreach ($lijst as $value) {
     echo "$value \n";
   }
-?>
