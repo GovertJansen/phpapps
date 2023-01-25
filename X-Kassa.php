@@ -11,22 +11,21 @@ while ($invoer >=  1 || !is_numeric($invoer)) {
     $invoer = readline("Geef een bedrag:");
 }
 $aantal = array_sum($lijst);
-echo "Je moet $aantal € betalen.\n";
-
-$betaalmethode = readline("Met welk bedrag betaald u?");
+echo "U moet €" .  (number_format($aantal, 2)) . " betalen.\n";
+$betaalbedrag = readline("Met welk bedrag betaald u?");
 
 while ($aantal > 0) {
-    if (!is_numeric($betaalmethode)) {
+    if (!is_numeric($betaalbedrag)) {
         echo ("Dit is geen geldig getal\n");
-        $betaalmethode = readline("Je moet nog $aantal betalen.\n Met welk bedrag betaal je?");
+        $betaalbedrag = readline("U moet nog €" . (number_format($aantal, 2)) . " betalen.\n Met welk bedrag betaald U? ");
     } else {
-        $aantal = $aantal - $betaalmethode;
-        if ($aantal > 0) $betaalmethode = readline("Je moet nog $aantal betalen.\n Met welk bedrag betaal je?");
+        $aantal = $aantal - $betaalbedrag;
+        if ($aantal > 0) $betaalbedrag = readline("U moet nog €" . (number_format($aantal, 2)) . " betalen.\n Met welk bedrag betaald U? ");
     }
 }
 
-if ($betaalmethode > $aantal && ($aantal < 0)) {
-    $positive = abs($aantal);
-    echo "Je krijgt $positive terug.\n";
+if ($geldTerug = abs($aantal)) {
+    echo "U heeft betaald.\nU krijgt €" . (number_format($geldTerug, 2)) . " terug.\n";
+} else {
+    echo "U heeft betaald.";
 }
-echo "U heeft betaald.";
