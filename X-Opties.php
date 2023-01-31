@@ -10,10 +10,6 @@ $Vleeswaren = array(
     "Hamburgers" => "10",
     "Frikandellen" => "15",
 );
-
-while ($Budget != 100) {
-    array_push($Boodschappenlijst, $Vleeswaren);
-    $Budget++;
+for ($x = 0; $x < 100; ++$x) {
+    echo "kaas";
 }
-$Lijst = array_sum($Boodschappenlijst);
-echo $Lijst;
