@@ -18,18 +18,14 @@ $invoerGewenst = array_search($invoerGewenst, $eenheden);
 if ($invoerGrootheid > $invoerGewenst) {
     $hoeVaak = $invoerGrootheid - $invoerGewenst;
     $delenDoor = 1;
-    for ($i = 0; $i < $hoeVaak; $i++) {
-        $delenDoor = $delenDoor * 10;
-    }
+    $delenDoor = pow(10, $hoeVaak);
     $uitkomst = $waarde / $delenDoor;
-    echo rtrim(number_format(($uitkomst), 7), "0");
+    echo rtrim(number_format(($uitkomst), 7), "0") . $eenheden[$invoerGewenst];
 }
 if ($invoerGrootheid < $invoerGewenst) {
     $hoeVaak = $invoerGewenst - $invoerGrootheid;
     $delenDoor = 1;
-    for ($i = 0; $i < $hoeVaak; $i++) {
-        $delenDoor = $delenDoor * 10;
-    }
+    $delenDoor = pow(10, $hoeVaak);
     $uitkomst = $waarde * $delenDoor;
-    echo $uitkomst;
+    echo $uitkomst . $eenheden[$invoerGewenst];
 }
