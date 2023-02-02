@@ -10,6 +10,5 @@ $Vleeswaren = array(
     "Hamburgers" => "10",
     "Frikandellen" => "15",
 );
-for ($x = 0; $x < 100; ++$x) {
-    echo "kaas";
+for ($x = 0; $x < 70; ++$x) {
 }
