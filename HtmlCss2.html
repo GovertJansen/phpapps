@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="Css/mystyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulier </title>
+    <title>Html </title>
 </head>
 
 <body>
@@ -13,19 +14,38 @@
     <form action="mailto:97050782@st.deltion.nl" method="post">
 
         <label for="fname">Voornaam:</label> <br>
-        <input type="text" id="fname" name="fname" placeholder="Voornaam" value=""> <br>
+        <input type="text" id="fname" name="fname" placeholder="Voornaam" value="" required maxlength="100"> <br> <br>
 
         <label for="lname">Achternaam:</label> <br>
-        <input type="text" id="lname" name="lname" placeholder="achternaam" value=""> <br>
+        <input type="text" id="lname" name="lname" placeholder="achternaam" value="" required maxlength="100"> <br> <br>
 
         <label for="Adres">Adres:</label> <br>
-        <input type="text" id="Adres" name="Adres" placeholder="Adres" value=""> <br>
+        <input type="text" id="Adres" name="Adres" placeholder="Adres" value="" required> <br> <br>
 
         <label for="Postcode">Postcode:</label> <br>
-        <input type="Postcode" id="Postcode" name="Postcode" placeholder="Postcode" value=""> <br>
+        <input type="Postcode" id="Postcode" name="Postcode" placeholder="Postcode" value="" required maxlength="6">
+        <br> <br>
 
         <label for="Plaats">Plaats:</label> <br>
-        <input type="Plaats" id="Plaats" name="Plaats" placeholder="Plaats" value="">
+        <input type="Plaats" id="Plaats" name="Plaats" placeholder="Plaats" value="" required maxlength="100"> <br> <br>
+
+        <label for="Geboortedatum">Geboortedatum:</label> <br>
+        <input type="date" id="Geboortedatum" name="Geboortedatum" value="" required> <br> <br>
+
+        <label for="E-mailadres">E-mailadres:</label> <br>
+        <input type="email" id="E-mailadres" name="E-mailadres" value="" required> <br> <br>
+
+        <input type="radio" id="Man" name="Drone" value="Man" required>
+        <label for="Man">Man</label>
+        <input type="radio" id="Vrouw" name="Drone" value="Vrouw">
+        <label for="Vrouw">Vrouw</label> <br> <br>
+
+        <label for="Opmerking">Opmerking:</label> <br>
+        <input type="textarea" id="Opmerking" name="Opmerking" placeholder="Opmerking" value="" required
+            maxlength="400"> <br> <br>
+
+        <label for="Inschrijven voor de nieuwsbrief">Inschrijven voor de nieuwsbrief:</label> <br>
+        <input type="checkbox" id="Nieuws" name="Nieuws" value="" required> <br>
 
         <br> <input type="Submit" value="Submit">
     </form>
