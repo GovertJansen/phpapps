@@ -1,13 +1,35 @@
-.buttons {
-    text-align: center;
-    font-family: Sans-serif;
+body {
+    background-color: #5A5A5A;
 }
 
-.google {
+.titel {
+    color: #fff;
     text-align: center;
     font-family: Sans-serif;
+    position: relative;
+    bottom: -150px;
+    font-size: 47px;
+    letter-spacing: -5px;
 }
 
 .zoekbar {
+    border: none;
+
+    border-radius: 25px 25px 25px 25px;
     text-align: center;
+    font-family: Sans-serif;
+    position: relative;
+    bottom: -55px;
+    left: 275px;
+    width: 550px;
+    height: 38px;
+
+}
+
+.knoppen {
+
+    text-align: center;
+    font-family: Sans-serif;
+    position: relative;
+    bottom: -145px;
 }
