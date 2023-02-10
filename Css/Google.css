@@ -1,5 +1,5 @@
 body {
-    background-color: #5A5A5A;
+    background-color: #202124;
 }
 
 .titel {
@@ -10,14 +10,12 @@ body {
     bottom: -150px;
     font-size: 47px;
     letter-spacing: -5px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .zoekbar {
     border: none;
     border-radius: 25px 25px 25px 25px;
-    text-align: center;
     font-family: Sans-serif;
     position: relative;
     bottom: -55px;
@@ -25,6 +23,7 @@ body {
     height: 38px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 
 }
 
@@ -33,7 +32,37 @@ body {
     text-align: center;
     font-family: Sans-serif;
     position: relative;
-    bottom: -145px;
+    bottom: -140px;
+}
+
+.grootte {
+    margin: 3.5px;
+    background-color: #303134;
+    color: #fff;
+    width: 140px;
+    height: 35px;
+    border: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.afbeeldingen {
+    color: #fff;
+    position: relative;
+    left: -50px;
+    bottom: 163px;
+    float: right;
+    text-decoration: none;
+
+}
+
+.gmail {
+    color: #fff;
+    position: relative;
+    left: -70px;
+    bottom: 163px;
+    float: right;
+    text-decoration: none;
+
 }
 
 .account {
@@ -42,4 +71,18 @@ body {
     left: 810px;
     bottom: 25px;
     float: left;
+
+}
+
+.frysk {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 175px;
+    font-family: sans-serif;
+
+}
+
+.frys {
+    color: #ba85dd;
 }
