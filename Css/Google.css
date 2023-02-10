@@ -10,19 +10,21 @@ body {
     bottom: -150px;
     font-size: 47px;
     letter-spacing: -5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .zoekbar {
     border: none;
-
     border-radius: 25px 25px 25px 25px;
     text-align: center;
     font-family: Sans-serif;
     position: relative;
     bottom: -55px;
-    left: 275px;
     width: 550px;
     height: 38px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -32,4 +34,12 @@ body {
     font-family: Sans-serif;
     position: relative;
     bottom: -145px;
+}
+
+.account {
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+    left: 810px;
+    bottom: 25px;
+    float: left;
 }
