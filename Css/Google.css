@@ -159,3 +159,108 @@ body {
     top: 146px;
     left: 10px;
 }
+
+.ad {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 175px;
+    left: -26px
+}
+
+.bedrijf {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 175px;
+    left: -10px
+}
+
+.hoe {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 175px;
+    left: 8px;
+}
+
+.blad {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    position: relative;
+    top: 176px;
+    left: 188px;
+    width: 14px;
+}
+
+.co2 {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 353px;
+    left: 385px;
+}
+
+.instelling {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: right;
+    top: 167px;
+    right: -50px;
+}
+
+.waarden {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: right;
+    top: 167px;
+    right: 50px;
+}
+
+.prive {
+    text-decoration: none;
+    color: #909da5;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    float: right;
+    left: -133px;
+    top: 167px;
+}
+
+.cam {
+    position: absolute;
+    left: 1072px;
+    top: 351px;
+
+}
+
+.groot {
+    width: 29px;
+}
+
+.mic {
+    position: absolute;
+    left: 1032px;
+    top: 351px;
+}
