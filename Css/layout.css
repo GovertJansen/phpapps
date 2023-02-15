@@ -1,0 +1,33 @@
+.nav {
+    color: blue;
+    background-color: crimson;
+
+}
+
+.main {
+    color: blue;
+    background-color: crimson;
+}
+
+.content {
+    color: blue;
+    background-color: crimson;
+    float: left;
+}
+
+.nieuws {
+    color: blue;
+    background-color: crimson;
+    float: right;
+}
+
+.foot {
+    color: blue;
+    background-color: crimson;
+
+    margin-top: 575px;
+}
+
+body {
+    margin: 0px;
+}

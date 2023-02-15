@@ -29,3 +29,18 @@ if ($invoerGrootheid < $invoerGewenst) {
     $uitkomst = $waarde * $delenDoor;
     echo $uitkomst . $eenheden[$invoerGewenst];
 }
+
+
+// class auto
+// {
+//     public static function turnOn()
+//     {
+//         return 1;
+//     }
+
+//     public static function turnOff() {
+//         return 0;
+//     }
+// }
+
+// echo auto::turnOn();
