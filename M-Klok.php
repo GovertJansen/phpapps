@@ -1,5 +1,5 @@
 <?php
-set_time_limit(6);
+set_time_limit(60);
 for ($i = 0; $i < 59; ++$i) {
     echo date("d-m-Y H:i:s");
     echo "\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08";
