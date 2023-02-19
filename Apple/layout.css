@@ -26,93 +26,6 @@ li a:hover {
 
 }
 
-.main {
-    text-align: center;
-    position: absolute;
-    color: aqua;
-    background-color: darkorchid;
-    height: 110px;
-    width: 1660px;
-    margin-top: -16px;
-}
-
-.nieuws {
-    color: aqua;
-    background-color: darkorchid;
-    float: right;
-    height: 540px;
-    width: 416px;
-    text-align: center;
-    margin-top: 100px;
-
-}
-
-.content {
-    position: absolute;
-    text-align: center;
-    color: blue;
-    background-color: greenyellow;
-    float: left;
-    height: 540px;
-    width: 1255px;
-    margin-top: 100px;
-
-}
-
-.foot {
-    color: blue;
-    background-color: crimson;
-    margin-top: 655px;
-    height: 100px;
-    text-align: center;
-}
-
-body {
-    margin: 0px;
-    background-color: seashell
-}
-
-.main {
-    text-align: center;
-    position: absolute;
-    color: aqua;
-    background-color: darkorchid;
-    height: 110px;
-    width: 1660px;
-    margin-top: -16px;
-}
-
-.nieuws {
-    color: aqua;
-    background-color: darkorchid;
-    float: right;
-    height: 540px;
-    width: 416px;
-    text-align: center;
-    margin-top: 100px;
-
-}
-
-.content {
-    position: absolute;
-    text-align: center;
-    color: blue;
-    background-color: greenyellow;
-    float: left;
-    height: 540px;
-    width: 1255px;
-    margin-top: 100px;
-
-}
-
-.foot {
-    color: blue;
-    background-color: crimson;
-    margin-top: 655px;
-    height: 100px;
-    text-align: center;
-}
-
 body {
     margin: 0px;
     background-color: seashell
@@ -125,6 +38,10 @@ body {
     margin-top: 30px;
 }
 
+.rood {
+    color: red;
+}
+
 .iphone {
     font-family: sans-serif;
     width: 26%;
@@ -133,8 +50,19 @@ body {
 }
 
 .kopen {
+    transition: 1s ease;
+}
+
+.kopen:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    transition: 1s ease;
+}
+
+.kopen {
     font-family: sans-serif;
-    background-color: aqua;
+    background-color: crimson;
     color: black;
     position: absolute;
     margin-left: 1100px;
@@ -163,4 +91,35 @@ body {
     position: absolute;
     margin-left: 1000px;
     margin-top: -650px;
+}
+
+.table {
+    color: dodgerblue;
+    background-color: #ececec;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.overflow img {
+    transition: 1s ease;
+}
+
+.overflow img:hover {
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    transition: 1s ease;
+}
+
+.contact {
+    font-family: sans-serif;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.fotocontact {
+    position: absolute;
+    left: 1200px;
+    bottom: 0px;
 }

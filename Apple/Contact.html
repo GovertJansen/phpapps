@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #ffffff;">
     <nav class="nav">
         <ul class="nav">
             <li><a href="Apple.html">Home</a></li>
@@ -23,21 +23,50 @@
         </ul>
     </nav>
 
-    <main class="main">
-        <h1>Contact</h1>
+    <head>
+        <H1 class="contact">Contact</H1>
+    </head>
+    <main class="contact">
+
+        <form action="Contact.html">
+            <label for="fname">Voornaam:</label> <br>
+            <input class="Voornaam" type="text" id="fname" name="fname" placeholder="Erik" value="" required
+                maxlength="100"> <br> <br>
+
+            <label for="lname">Achternaam:</label> <br>
+            <input type="text" id="lname" name="lname" placeholder="Jan" value="" required maxlength="100">
+            <br>
+            <br>
+
+            <label for="Adres">Adres:</label> <br>
+            <input type="text" id="Adres" name="Adres" placeholder="MuisStraat 14" value="" required> <br> <br>
+
+            <label for="Postcode">Postcode:</label> <br>
+            <input type="Postcode" id="Postcode" name="Postcode" placeholder="8022FG" value="" required maxlength="6">
+            <br> <br>
+
+            <label for="Plaats">Plaats:</label> <br>
+            <input type="Plaats" id="Plaats" name="Plaats" placeholder="Wijhe" value="" required maxlength="100">
+            <br>
+            <br>
+
+            <label for="E-mailadres">E-mailadres:</label> <br>
+            <input type="email" id="E-mailadres" name="E-mailadres" value="" required placeholder="ErikJan@gmail.com">
+            <br>
+            <br>
+
+            <label for="Opmerking">Opmerking:</label> <br>
+            <input type="textarea" id="Opmerking" name="Opmerking" placeholder="Uw vraag:" value="" required
+                maxlength="1000"> <br>
+            <br> <input type="Submit" value="Versturen"
+                onclick="alert('We hebben u bericht succesvol ontvangen.\nWe nemen zo snel mogelijk contact met u op.')">
+        </form>
+
+
+
+
     </main>
-
-    <div class="nieuws">
-        <h1>Nieuws</h1>
-    </div>
-
-    <section class="content">
-        <h1>Content</h1>
-    </section>
-
-    <footer class="foot">
-        <h1>Footer</h1>
-    </footer>
+    <img class="fotocontact" src="https://pbs.twimg.com/profile_images/477514611579568129/nNZP1MaW_400x400.png">
 
 </body>
 
