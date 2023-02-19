@@ -54,8 +54,6 @@ body {
 }
 
 .kopen:hover {
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
     transform: scale(1.4);
     transition: 1s ease;
 }
@@ -84,7 +82,6 @@ body {
     width: 25%;
     margin-left: 20px;
     margin-top: 30px;
-
 }
 
 .pijl {
@@ -106,8 +103,6 @@ body {
 }
 
 .overflow img:hover {
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
     transform: scale(1.4);
     transition: 1s ease;
 }
